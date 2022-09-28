@@ -1,3 +1,7 @@
+#footer{
+    padding-top: 50px;
+    background-color: rgb(248, 247, 247);
+}
 body{
     margin: 0px;
     background-color: rgb(248, 247, 247);
@@ -9,19 +13,31 @@ h1{
     font-family: 'Roboto', sans-serif;
 }
 .header{
+    position: fixed;
+    top: 0;
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
-    padding-top: -5px;
-    padding-left: 20px;
-    padding-right: 30px;
+    margin:0;
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 1%;
+    right: 1%;
+    box-shadow: 5px 5px 17px 5px rgba(0,0,0,0.11);
+    margin-bottom: 15px;
 }
 .lebenslauf{
+    box-sizing: border-box;
+    position: relative;
+    top: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
+    box-shadow: 5px 5px 17px 5px rgba(0,0,0,0.11);
+    margin: 20px;
+    z-index: 0;
 }
 
 .cv-img{
@@ -34,49 +50,15 @@ h1{
     font-size: 20px;
     padding:20px;
     margin-left: 30px;
+    list-style-type: none;
 }
 .date{
     font-weight: 600;
 }
-@media (max-width:992px){
+@media (max-width:680px){
     .lebenslauf{
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-
 }
-
-
-
-
-
-
-
-
-/*.date{
-    font-weight: 600;
-}
-ul{
-    font-size: 30px;
-}
-body{
-    margin: 0;
-    color: black;
-    background-color:  white;
-    
-}
-.lebenslauf{
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
-header{
-    padding-left: 20px;
-    background-color: rgb(248, 247, 247);
-    box-shadow: 0px 5px 13px 2px lightgray;
-}
-.absatz{
-    font-size: 30px;
-    font-weight: 600;
-}*/
