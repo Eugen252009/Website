@@ -1,7 +1,57 @@
-.nav__link{
-    color: black;
+.header-img{
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 300px;
+    object-fit: cover;
+    object-position: 50% 25%;
 }
-.nav__link--active{
+#footer{
     color: black;
-    font:bold;
+    display: flex;
+    align-items: center;
+}
+h1{
+    color: rgb(238, 108, 22);
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(248, 247, 247);;
+    font-family: 'Roboto', sans-serif;
+    padding:20px;
+}
+.img-container{
+    background-color: white;
+    padding: 16px;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+a{
+    color: rgb(238, 108, 22);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.name{
+    color: black;
+    font-size: 45px;
+}
+.text-class{
+    font-family: 'Roboto' sans-serif;
+    padding: 8px;
+    font-weight: 500;
+    background-color:rgb(248, 247, 247);
+}
+.redirect-to-nas{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
 }
