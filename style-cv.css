@@ -25,7 +25,9 @@ h1{
     left: 1%;
     right: 1%;
     box-shadow: 5px 5px 17px 5px rgba(0,0,0,0.11);
+    border-radius: 8px;
     margin-bottom: 15px;
+    z-index: +1;
 }
 .lebenslauf{
     box-sizing: border-box;
