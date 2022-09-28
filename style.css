@@ -5,6 +5,7 @@
     height: 300px;
     object-fit: cover;
     object-position: 50% 25%;
+    border-radius: 8px 8px 0px 0px;
 }
 #footer{
     color: black;
@@ -24,6 +25,7 @@ body{
 .img-container{
     background-color: white;
     padding: 16px;
+    border-radius: 8px;
 }
 .navbar{
 display: flex;
@@ -49,6 +51,7 @@ a:hover{
     padding: 8px;
     /*font-weight: 500;*/
     background-color:rgb(248, 247, 247);
+    border-radius: 0px 0px 8px 8px ;
 }
 .redirect-to-nas{
     color: black;
