@@ -41,21 +41,24 @@ h1{
     margin: 20px;
     z-index: 0;
 }
-
-.cv-img{
-    border-radius: 8px;
-    max-width: 30%;
-    height: auto;
-}
 .daten{
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    padding:20px;
-    margin-left: 30px;
+    font-size: 12px;
+    margin-left: 0px;
     list-style-type: none;
+    width: 70%;
+    padding: 5px;
 }
+
 .date{
     font-weight: 600;
+}
+.two{
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+    font-size: -2px;
+    list-style-type: disc;
+    padding-left:0px ;
 }
 @media (max-width:680px){
     .lebenslauf{
@@ -63,4 +66,27 @@ h1{
         justify-content: space-between;
         align-items: center;
     }
+}
+
+@media (max-width:450px){
+    .daten{
+        font-size: 16px;
+        color: black;
+        align-items: center;
+    }
+    .two{
+        font-size: 0px;
+        color: white;
+    }
+    .date{
+        color:black;
+    }
+    img{
+        max-width: 30px;
+        max-height: 30px;
+    }
+}
+.material-symbols-outlined{
+    text-decoration: none;
+    color: black;
 }

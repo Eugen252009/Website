@@ -47,11 +47,21 @@ a:hover{
 .text-class{
     font-family: 'Roboto' sans-serif;
     padding: 8px;
-    font-weight: 500;
+    /*font-weight: 500;*/
     background-color:rgb(248, 247, 247);
 }
 .redirect-to-nas{
     color: black;
     text-decoration: none;
     font-weight: 400;
+}
+.redirect-to-nas:hover{
+    text-decoration: none;
+}
+@media(max-width:680px){
+.navbar{
+    display: block;
+margin: 10px;
+}
+
 }
