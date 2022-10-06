@@ -77,7 +77,10 @@ body {
 }
 div {
   margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
+
 /* Background */
 .green {
   background-color: #94b49f;
@@ -91,7 +94,7 @@ div {
 /* NAVBAR */
 .navbar {
   padding: 1rem 3rem;
-width: 100%;
+  width: 100%;
 }
 .brand {
   font-family: "Pacifico", cursive;
@@ -104,17 +107,17 @@ width: 100%;
 .nav-link {
   color: #cee5d0;
 }
-.navbar-part-3{
+.navbar-part-3 {
   margin-left: auto;
 }
 /* HEADER */
-.container-header{
-  padding-top: 10%;
-  padding-bottom: 10%;
+.container-header {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .container-text {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .header-1 {
   font-size: 3rem;
@@ -123,18 +126,6 @@ width: 100%;
 .header-2 {
   font-family: "Roboto", sans-serif;
   font-size: 3rem;
-}
-
-.header-img {
-  width: 80%;
-  height: auto;
-}
-
-.col-img {
-  width: auto;
-  height: auto;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
 }
 /* TRENNER */
 .trenner {
@@ -158,44 +149,53 @@ width: 100%;
   padding-top: 2rem;
   padding-left: 2rem;
 }
-.abilitiy-text{
-margin-bottom: 3rem;  
+.abilitiy-text {
+  margin-bottom: 3rem;
 }
 
 .ability-btn {
   margin: 0.25rem;
 }
-.carousel-itm{
-margin-top: auto;
-margin-bottom: auto;
-margin-right: 3rem;
+.carousel-itm {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 3rem;
 }
+/* Project */
+
+.projects {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 /* CTA */
 
-.cta{
-padding-top: 5rem;
-padding-bottom: 5rem;
+.cta {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
-.ctaa{
-  margin-left: auto;
-  margin-right: auto;
-}
-.ctabtn{
+.ctabtn {
   width: 30ch;
   margin-left: auto;
   margin-right: auto;
-  color: #cee5d0;
+  color: #ecb390;
+  font-weight: bold;
+  border-color: #ecb390;
+  text-decoration: none;
 }
-.ctabtn:hover{
-background-color: #94b49f;
-color: green;
-box-shadow: 0 0 3px 2px green;
+.ctabtn:hover {
+  background-color: #fcf8e8;
+  color: #ecb390;
+  box-shadow: 0 0 3px 2px #ecb390;
+  text-decoration: underline;
 }
-.ctaa{
-color: inherit;
-}
-.ctaa:hover{
+.ctaa {
   color: inherit;
+  text-decoration: inherit;
+}
+.ctaa:hover {
+  color: inherit;
+  text-decoration:inherit;
 }
 /* Footer */
 .footer {
@@ -206,7 +206,7 @@ color: inherit;
 .footername {
   text-decoration: none;
 }
-.footername:hover{
+.footername:hover {
   background-color: #94b49f;
-  color: #cee5d0; 
+  color: #cee5d0;
 }
