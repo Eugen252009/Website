@@ -1,0 +1,166 @@
+/* Color Palette
+
+#94B49F
+#CEE5D0
+#ECB390
+#FCF8E8
+
+
+*/
+/* Font */
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/font/Roboto/Roboto-Black.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/font/Roboto/Roboto-BlackItalic.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/font/Roboto/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/font/Roboto/Roboto-BoldItalic.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/font/Roboto/Roboto-Italic.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/font/Roboto/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/font/Roboto/Roboto-LightItalic.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/font/Roboto/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/font/Roboto/Roboto-MediumItalic.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/font/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/font/Roboto/Roboto-Thin.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/font/Roboto/Roboto-ThinItalic.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/font/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url("/assets/font/Pacifico/Pacifico-Regular.ttf");
+}
+/* Font */
+font {
+  font-family: "Pacifico", sans-serif;
+}
+
+/* Body */
+body {
+  font-family: "Roboto", sans-serif;
+}
+div {
+  margin: 0;
+}
+/* Background */
+.green {
+  background-color: #94b49f;
+  color: #cee5d0;
+}
+.orange {
+  background-color: #fcf8e8;
+  color: #ecb390;
+}
+
+/* NAVBAR */
+.navbar {
+  padding: 1rem 3rem;
+}
+.brand {
+  font-family: "Pacifico", cursive;
+  font-size: 4rem;
+  color: #cee5d0;
+}
+.dropbar {
+  padding-top: 0.9rem;
+}
+.nav-link {
+  color: #cee5d0;
+}
+/* HEADER */
+.container-text {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.header-1 {
+  font-size: 3rem;
+  font-family: "Pacifico", cursive;
+}
+.header-2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+}
+
+.header-img {
+  width: 80%;
+  height: auto;
+}
+
+.col-img {
+  width: auto;
+  height: auto;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+/* TRENNER */
+.trenner {
+  padding-bottom: 3rem;
+}
+.dots {
+  border: 0 0 0 0;
+  border-style: dotted;
+  border-width: 1rem;
+  width: 15%;
+  border-top: 2rem;
+  margin: 0 auto;
+  border-color: #cee5d0;
+}
+
+/* ABILITIES */
+.abilities {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.ability-btn {
+  margin-top: 0.25rem;
+
+}
+.datapoints{
+
+}
+.btn-success{
+  /* background-color: #94B49F; */
+}
+/* Footer */
+.footer {
+  padding-top: 3rem;
+}

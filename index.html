@@ -5,51 +5,199 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Willkommen</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Style/master.css" />
   </head>
   <body>
-    <div class="navbar">
-      <h1>
-        Herzlich Willkommen <br />Ich bin<br /><span class="name"
-          >Eugen Lupricht</span
+    <!-- NAV BAR -->
+    <nav class="green navbar navbar-expand-md d-flex justify-content-between">
+      <div class="container-fluid">
+        <div>
+          <a class="brand navbar-brand" href="#">Lupricht</a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-      </h1>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="dropbar navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projekte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/cv.html">Lebenslauf</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- HEADER -->
+    <div class="green container-fluid container-header">
+      <div class="row">
+        <div class="col container-text text-center">
+          <h1>
+            <span class="header-1"> Ich bin</span
+            ><span class="header-1"> Eugen</span>
+          </h1>
+          <h3 class="header-2"><br />Ein Full-Stack-Developer</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Trenner -->
+    <div class="trenner green">
+      <hr class="dots" />
+    </div>
 
-      <div class="nav-text">
-        <a href="/info.html">Kontakt</a>
-        <a href="/cv.html">Lebenslauf</a>
-        <a href="https://github.com/Eugen252009?tab=repositories">Projekte</a>
-      </div>
-    </div>
-    <div class="img-container">
-      <img class="header-img" src="/assets/header.jpg" />
-      <div class="text-class">
-        <a href="/cv.html"><p>Zu meinem Lebenslauf</p></a>
-      </div>
+      <!-- PROJECTS -->
       <div>
-        <h2>Aktuelle Projekte</h2>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79330.54976793418!2d13.651794940645617!3d51.58510302302331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47081e1c13f84bb5%3A0x79c7646c8fed5201!2s03238%20Finsterwalde!5e0!3m2!1sde!2sde!4v1664402960126!5m2!1sde!2sde"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+
+      </div>
+
+    <!-- ABILITIES -->
+    <!-- 
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">A simple default list group item</a>
+        
+        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A simple primary list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">A simple secondary list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-success">A simple success list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-danger">A simple danger list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-warning">A simple warning list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-info">A simple info list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
+      </div>
+    -->
+    <div class="orange abilities container-fluid">
+      <h3>Programmiersprachen:</h3>
+      <div class="row">
+        <div class="col">
+          <!-- 0 -->
+          <div class="row">
+            <div class="col">
+              <button
+              type="button"
+              class="ability-btn btn btn-success"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              >
+              HTML
+            </button>
+          </div>
+          <div class="col">
+            <button class="btn btn-warning">Javascript</button>
+          </div>
+          </div>
+          <!-- 1 -->
+          <div class="row">
+            <button
+              type="button"
+              class="ability-btn btn btn-success"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+            >
+              CSS
+            </button>
+          </div>
+          <!-- 2 -->
+          <div class="row">
+            <button
+              type="button"
+              class="ability-btn btn btn-success"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+            >
+              NODE.js
+            </button>
+          </div>
+          <!-- 3 -->
+          <div class="row">
+            <button
+              type="button"
+              class="ability-btn btn btn-success"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+            >
+              JQuery
+            </button>
+          </div>
+          <!-- 4 -->
+          <div class="row">
+            <button
+              type="button"
+              class="ability-btn btn btn-success"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="4"
+            >
+              Javascript(js)
+            </button>
+          </div>
+          <!-- 5 -->
+          <div class="row">
+            <button
+              type="button"
+              class="ability-btn btn btn-success"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="5"
+            >
+              Bootstrap
+            </button>
+          </div>
+          <!--  -->
+        </div>
+
+        <div class="col">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide datapoints"
+            data-bs-ride="false"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p>HTML</p>
+              </div>
+              <div class="carousel-item">
+                <p>CSS</p>
+              </div>
+              <div class="carousel-item">
+                <p>NODE.js</p>
+              </div>
+              <div class="carousel-item">
+                <p>JQuery</p>
+              </div>
+              <div class="carousel-item">
+                <p>Javascript</p>
+              </div>
+              <div class="carousel-item">
+                <p>Bootstrap</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <footer id="footer">
-      <p>(c) Copyright 2022</p>
-      <a class="redirect-to-nas" href="https://Lupricht.net:5001"
-        >Eugen Lupricht</a
-      >
-    </footer>
+  
+    <!-- CTA -->
+    <div>
+
+      <p>
+        Schreibe mir eine Email
+      </p>
+
+    </div>
+    <!-- FOOTER -->
+    <div class="green footer text-center">
+      <p class="copyright-text">Copyright 2022 Eugen Lupricht</p>
+    </div>
+    <script src="/bootstrap/js/bootstrap.bundle.js"></script>
   </body>
 </html>
