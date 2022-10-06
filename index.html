@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Willkommen</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="./Style/master.css" />
   </head>
   <body>
     <!-- NAV BAR -->
-    <nav class="green navbar navbar-expand-md d-flex justify-content-between">
+
+    <nav class="green navbar navbar-expand-md">
       <div class="container-fluid">
-        <div>
-          <a class="brand navbar-brand" href="#">Lupricht</a>
-        </div>
+        <a class="brand navbar-brand" href="#">Lupricht</a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -26,21 +29,24 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="dropbar navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Projekte</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/cv.html">Lebenslauf</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+      </div>
+      <div
+        class="navbar-part-3 collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projekte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/cv.html">Lebenslauf</a>
+          </li>
+        </ul>
       </div>
     </nav>
+
     <!-- HEADER -->
+
     <div class="green container-fluid container-header">
       <div class="row">
         <div class="col container-text text-center">
@@ -57,48 +63,41 @@
       <hr class="dots" />
     </div>
 
-      <!-- PROJECTS -->
-      <div>
-
-      </div>
+    <!-- PROJECTS -->
+    <div></div>
 
     <!-- ABILITIES -->
-    <!-- 
-      <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-action">A simple default list group item</a>
-        
-        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A simple primary list group item</a>
-        <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">A simple secondary list group item</a>
-        <a href="#" class="list-group-item list-group-item-action list-group-item-success">A simple success list group item</a>
-        <a href="#" class="list-group-item list-group-item-action list-group-item-danger">A simple danger list group item</a>
-        <a href="#" class="list-group-item list-group-item-action list-group-item-warning">A simple warning list group item</a>
-        <a href="#" class="list-group-item list-group-item-action list-group-item-info">A simple info list group item</a>
-        <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
-        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
-      </div>
+ 
+    <!--
+
+      list-group-item-primary
+      list-group-item-secondary
+      list-group-item-success
+      list-group-item-danger
+      list-group-item-warning
+      list-group-item-info
+      list-group-item-light
+      list-group-item-dark
+ 
     -->
-    <div class="orange abilities container-fluid">
-      <h3>Programmiersprachen:</h3>
-      <div class="row">
-        <div class="col">
-          <!-- 0 -->
-          <div class="row">
-            <div class="col">
-              <button
+
+    <div class="orange abilities">
+      <div class="text-center">
+        <h3 class="abilitiy-text">Programmiersprachen:</h3>
+      </div>
+      <div class="orange container-fluid">
+        <div class="row justify-content-between">
+          <div class="col-3">
+            <!-- 0 -->
+            <button
               type="button"
               class="ability-btn btn btn-success"
               data-bs-target="#carouselExampleIndicators"
               data-bs-slide-to="0"
-              >
+            >
               HTML
             </button>
-          </div>
-          <div class="col">
-            <button class="btn btn-warning">Javascript</button>
-          </div>
-          </div>
-          <!-- 1 -->
-          <div class="row">
+            <!-- 1 -->
             <button
               type="button"
               class="ability-btn btn btn-success"
@@ -107,9 +106,7 @@
             >
               CSS
             </button>
-          </div>
-          <!-- 2 -->
-          <div class="row">
+            <!-- 2 -->
             <button
               type="button"
               class="ability-btn btn btn-success"
@@ -118,9 +115,8 @@
             >
               NODE.js
             </button>
-          </div>
-          <!-- 3 -->
-          <div class="row">
+
+            <!-- 3 -->
             <button
               type="button"
               class="ability-btn btn btn-success"
@@ -129,20 +125,16 @@
             >
               JQuery
             </button>
-          </div>
-          <!-- 4 -->
-          <div class="row">
+            <!-- 4 -->
             <button
               type="button"
               class="ability-btn btn btn-success"
               data-bs-target="#carouselExampleIndicators"
               data-bs-slide-to="4"
             >
-              Javascript(js)
+              Javascript (js)
             </button>
-          </div>
-          <!-- 5 -->
-          <div class="row">
+            <!-- 5 -->
             <button
               type="button"
               class="ability-btn btn btn-success"
@@ -152,52 +144,95 @@
               Bootstrap
             </button>
           </div>
-          <!--  -->
-        </div>
 
-        <div class="col">
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide datapoints"
-            data-bs-ride="false"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <p>HTML</p>
-              </div>
-              <div class="carousel-item">
-                <p>CSS</p>
-              </div>
-              <div class="carousel-item">
-                <p>NODE.js</p>
-              </div>
-              <div class="carousel-item">
-                <p>JQuery</p>
-              </div>
-              <div class="carousel-item">
-                <p>Javascript</p>
-              </div>
-              <div class="carousel-item">
-                <p>Bootstrap</p>
+          <div class="col-8 carousel-itm">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide datapoints"
+              data-bs-ride="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h3>HTML</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Eaque modi magni soluta et reprehenderit suscipit ipsam
+                    expedita dolor deleniti, at inventore debitis perferendis
+                    impedit, repudiandae veritatis eius provident in
+                    consequuntur?
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <h3>CSS</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quidem distinctio nihil similique non adipisci esse nulla
+                    perferendis nesciunt maxime veniam! Autem harum facilis
+                    expedita ipsa animi fugit, doloremque mollitia aperiam!
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <h3>NODE.js</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dolore, nisi. Hic praesentium assumenda eos in? Dignissimos
+                    rem possimus voluptate modi exercitationem laborum vel non.
+                    Cumque perferendis eius consequatur optio hic.
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <h3>JQuery</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                    ex sint voluptate perspiciatis provident recusandae. Omnis
+                    ad assumenda tempora eligendi nesciunt aut earum quas, vel
+                    sit illum possimus quam non?
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <h3>Javascript</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Vero natus blanditiis hic ex soluta alias veritatis pariatur
+                    quas fuga nesciunt. Illo dolore ducimus enim quos
+                    consectetur vero hic error totam.
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <h3>Bootstrap</h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Pariatur atque corporis, veritatis quisquam qui dolorum nisi
+                  maiores suscipit tenetur animi voluptatibus sed et ad
+                  reiciendis id fugiat dicta cupiditate ex!
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  
     <!-- CTA -->
-    <div>
-
-      <p>
-        Schreibe mir eine Email
-      </p>
-
+    <div class="cta container-fluid green">
+      <div class="row">
+        <button class="ctabtn btn btn-outline-success">
+          <a
+            class="ctaa"
+            href="mailto:eugen@lupricht.net?subject=Kontakt-Anfrage"
+          >
+            Schreibe mir eine Nachricht!
+          </a>
+        </button>
+      </div>
     </div>
     <!-- FOOTER -->
     <div class="green footer text-center">
-      <p class="copyright-text">Copyright 2022 Eugen Lupricht</p>
+      <p class="copyright-text">
+        Copyright 2022
+        <a class="footername green" href="https://lupricht.net:5001"
+          >Eugen Lupricht</a
+        >
+      </p>
     </div>
-    <script src="/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
