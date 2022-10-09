@@ -1,94 +1,34 @@
-#footer{
-    padding-top: 50px;
-    background-color: rgb(248, 247, 247);
-}
+/* 
+E1FFB1
+C7F2A4
+B6E388
+FCFFB2
+*/
+
 body{
-    margin: 0px;
-    background-color: rgb(248, 247, 247);
+    margin: 0;
+background-color:#E1FFB1;
 }
-div{
-   margin: 10px; background-color: white;
+.color1{
+background-color:#C7F2A4;
+color: black;
 }
-h1{
-    font-family: 'Roboto', sans-serif;
+.color2{
+background-color: #B6E388;
 }
-.header{
-    position: fixed;
-    top: 0;
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.color3{
+background-color: #FCFFB2;
+}
+
+
+/* Navbar */
+.navbar-brand{
     margin:0;
-    padding-left: 1em;
-    padding-right: 15px;
-    left: 0.1vw;
-    right: 0.1vw;
-    box-shadow: 5px 5px 17px 5px rgba(0,0,0,0.11);
-    border-radius: 8px;
-    margin-bottom: 15px;
-    z-index: +1;
 }
-.lebenslauf{
-    box-sizing: border-box;
-    position: relative;
-    top: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-width: 25ch;
-    border-radius: 8px;
-    box-shadow: 5px 5px 17px 5px rgba(0,0,0,0.11);
-    
-    z-index: 0;
+.home{
+color:inherit;
 }
-.daten{
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.75rem;
-    margin-left: 0px;
-    list-style-type: none;
-    width: 30ch;
-    padding: 1ch;
-}
-
-.date{
-    font-weight: 600;
-}
-.two{
-    font-family: 'Roboto', sans-serif;
-    font-size: -2px;
-    list-style-type: disc;
-    padding-left:0px ;
-}
-@media (max-width:680px){
-    .lebenslauf{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-}
-
-@media (max-width:460px){
-    .daten{
-        font-size: 1rem;
-        color: black;
-    
-    }
-    .two{
-        font-size: 0px;
-        color: white;
-    }
-    .date{
-        color:black;
-    }
-    img{
-        max-width: 30px;
-        max-height: 30px;
-    }
-}
-.material-symbols-outlined{
-    text-decoration: none;
-    color: black;
-    width: 2em;
+/* Tätigkeit */
+.ability{
 
 }
