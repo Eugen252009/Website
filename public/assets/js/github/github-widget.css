@@ -1,0 +1,69 @@
+:root{
+  --textcolorred:94;
+--textcolorgreen:b4;
+--textcolorblue:9f;
+--textcolor:rgb(var(--textcolorred),var(--textcolorgreen)var(--textcolorblue));
+
+
+--bg-colorred:00;
+--bg-colorgreen:00;
+--bg-colorblue:00;
+--bg-coloralpha:0.05;
+
+--bg-color:rgba(var(--bg-colorred),var(--bg-colorgreen),var(--bg-colorblue),var(--bg-coloralpha)); 
+}
+.gw-repo-outer {
+  float: left;
+  margin-bottom: 1em;
+}
+.gw-repo-outer:nth-child(2n + 1) {
+  clear: left;
+}
+.gw-repo {
+  background-color: var(--bg-color);
+  color: var(--textcolor);
+  padding: .5em;
+  height: 100%;
+}
+
+.gw-title {
+  margin-bottom: 0.3em;
+}
+.gw-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--textcolor);
+  text-decoration: none;
+}
+.gw-name:hover{
+  color: var(--textcolor1);
+  text-decoration: underline;
+}
+
+.gw-stats {
+  display: flex;
+  margin: 0;
+  float: right;
+  color: var(--textcolor);
+}
+.gw-watchers,
+.gw-forks {
+  display: inline-block;
+  height: 21px;
+  padding: 0 5px 0 23px;
+  line-height: 21px;
+  background: transparent url("repostat.png") no-repeat 0 0;
+}
+.gw-watchers {
+  background-position: 5px -2px;
+}
+.gw-forks {
+  background-position: 5px -52px;
+}
+.gw-lang {
+  font-size: 0.8em;
+  color: var(--textcolor);
+}
+.gw-clearer {
+  clear: left;
+}

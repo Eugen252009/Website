@@ -1,0 +1,20 @@
+:root {
+    --color1: #94b49f;
+    --color2: #cee5d0;
+    --color3: #ecb390;
+    --color4: #fcf8e8;
+    --black:#000;
+    --white:#fff;
+    /* FONT */
+    --font1:"Roboto", sans-serif;
+    --font2: 'Pacifico', cursive;
+    --font3:'Ubuntu', sans-serif;
+
+    --bg-gradient:linear-gradient(0deg, rgba(206,229,208,1) 0%, rgba(252,248,232,1) 100%);
+  }
+  .underline{
+    text-decoration: underline;
+  }
+  .underline:hover{
+    font-size: 1.2rem;
+  }

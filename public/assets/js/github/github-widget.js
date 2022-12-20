@@ -14,7 +14,7 @@ Copyright (c) 2011 - 2012 George MacKerron
 Released under the MIT licence: http://opensource.org/licenses/mit-license
  */
 
-(function() {
+call(function() {
   var allPayloadData, cls, get, getNext, init, jsonp, make, makeWidget, text,
     indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; },
     hasProp = {}.hasOwnProperty;
@@ -46,7 +46,7 @@ Released under the MIT licence: http://opensource.org/licenses/mit-license
       }
       results.push(make({
         parent: div,
-        cls: 'gw-repo-outer',
+        cls: 'gw-repo-outer col-sm-12 col-md-6 col-xl-4 col-xxl-3',
         kids: [
           make({
             cls: 'gw-repo',

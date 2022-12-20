@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-gradient);
+  min-height: 100vh;
+}
+li {
+  list-style-type: none;
+  font-size: 1.25rem;
+  font-family: var(--font1);
+}
+/* Header */
+.header {
+  font-size: 3rem;
+  font-family: var(--font2);
+}
+/* Company */
+.company {
+  text-align: center;
+  margin-top: 2rem;
+  min-height: 15vh;
+  background-color: var(--color2);
+  border-radius: 5px;
+}
+.carousel-item {
+  font-family: var(--font1);
+  padding: 5vh;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+.company h4 {
+  font-family: var(--font1);
+}
+.company li {
+  color: var(--black);
+  text-align: left;
+  font-family: var(--font1);
+}
+/* CTA */
+.cta {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.cta .btn {
+  width: 100%;
+  background-color: var(--color2);
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: var(--font1);
+  padding: 1rem;
+}
+.cta .btn:hover {
+  color: var(--black);
+  box-shadow: 0px 0px 10px #94b49f;
+  background-color: rgba();
+}
+
+/* Footer */
+#footer {
+  color: var(--black);
+  text-align: center;
+  font-family: var(--font1);
+}
